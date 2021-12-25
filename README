@@ -1,7 +1,19 @@
 In english :
+This is a project I made in first year of my engineering school : PHELMA.
+These algorithms are made in order to find shorter path.
 To compile you need files which contains arcs and peak (such as grapheUSAOuest.txt.txt even if this one is special).
 I add only this one because the other are too large. I also add metroetu.txt because this one is special (there are station).
+There are two algorithms : astar and dijskstra.
+To compile you have to go to the src/ file and do make astar or make dijkstra.
+Then to execute, you have to do : ./astar or ./dijkstra
+before the execution : 
+      you have to go in file astar.c and dijkstra.c and change metro. If you compile metroedu.txt, metro = 1, else metro = 0. (you can keep metro = 0 but there are no station)
+      If you want to watch the path after finding it : you need to change print from recuperation chemin (). print = 1 to watch the path, 0 else.
+      You also need to change the name of the file. (by default it is on metroetu.txt and metro = 1 and print frome recuperation chemin is equal to 1)
 
+I advice you to test metroedu.txt because I think grapheUSAOuest.txt is too large to be on gitHub.
+
+I hope you will enjoy this
 
 
 Bonjour,
