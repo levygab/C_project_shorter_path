@@ -119,7 +119,7 @@ int Astar(int depart , int arrivee , graph* graf ) {
 int main () {
 
   graph graphique ;
-  char nom[512] = {"../data/metroetu.txt"} ;
+  char nom[512] = {"../metroetu.txt"} ;
   char station_depart[512] ;
   char station_arrivee[512] ;
   char stock[512] ;
