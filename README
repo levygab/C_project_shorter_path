@@ -1,3 +1,9 @@
+In english :
+To compile you need files which contains arcs and peak (such as grapheUSAOuest.txt.txt even if this one is special).
+I add only this one because the other are too large. I also add metroetu.txt because this one is special (there are station).
+
+
+
 Bonjour,
 Pour lancer nos programmes il faut utiliser le makefile qui est présent dans le fichier source
 make astar et make dijkstra pour choisir astar ou dijkstra.
