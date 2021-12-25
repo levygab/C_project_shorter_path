@@ -1,0 +1,6 @@
+Bonjour,
+Pour lancer nos programmes il faut utiliser le makefile qui est présent dans le fichier source
+make astar et make dijkstra pour choisir astar ou dijkstra.
+Nous avons effectué nos tests directement avec ses fichiers sources.
+Il suffit de choisir, dans les fichiers sources astar et dijkstra, avec ou sans metro  (metro=1 ou metro = 0) et de rentrer l'emplacement du  graphe que l'on souhaite étudier.
+Le paramètre print permet l'affichage ou non du chemin parcouru sommet par sommet (print =1 ou 0)
