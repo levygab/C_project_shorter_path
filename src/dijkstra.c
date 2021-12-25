@@ -111,7 +111,7 @@ int dijkstra(int depart , int arrivee , graph* graf ) {
 int main () {
 
   graph graphique ;
-  char nom[512] = {"../data/grapheColorado.txt"} ;
+  char nom[512] = {"../data/metroetu.txt"} ;
   char station_depart[512] ;
   char station_arrivee[512] ;
   char stock[512] ;
@@ -124,7 +124,7 @@ int main () {
   int longueur ;
   int a ;
 
-  int metro =0 ; //varibale pour savoir si on prend le metro ou non
+  int metro =1 ; //varibale pour savoir si on prend le metro ou non
 
   //remplissage du graphe
   ouverture(nom,&graphique) ;
